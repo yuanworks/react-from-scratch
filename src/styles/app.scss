@@ -1,0 +1,61 @@
+body {
+  background-color: #212121;
+  color: #d2d2d2;
+}
+
+#home-page {
+  display: flex;
+  min-height: 100vh;
+
+  main {
+    flex: 3;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+
+      font-size: 120px;
+      font-weight: normal;
+
+      strong {
+        display: block;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin: 8px;
+      }
+    }
+
+    h3 {
+      color: lightgray;
+      font-weight: 400;
+      margin: 8px;
+    }
+
+    .__button {
+      align-self: flex-end;
+      padding: 16px 48px;
+    }
+  }
+
+  nav.main-react-logo {
+    flex: 1;
+    background-color: #2E62E9;
+    overflow: hidden;
+
+    img.logo {
+      position: relative;
+      transform: translate(0%, -50%);
+      top: 50%;
+      width: 200%;
+      animation: animation-rotate 120s infinite linear;
+    }
+  }
+}
+
+@keyframes animation-rotate {
+  from { transform: translateY(-50%) rotate(0deg) }
+  to { transform: translateY(-50%) rotate(360deg )}
+}
