@@ -1,10 +1,12 @@
 import React from 'react';
-import '../styles/components/Button.scss';
+import classnames from 'classnames';
+import styles from './Button.module.scss';
 
-function Button({ children }) {
+function Button({ children, className }) {
 
+  console.log(styles);
   return (
-    <button className='__button'>{ children }</button>
+    <button className={classnames(styles.button, className)}>{ children }</button>
   );
 }
 

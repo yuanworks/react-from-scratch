@@ -17,7 +17,7 @@ function Home() {
           <h3>Fundamentals of React, Redux, Node, ES6 and immutability.</h3>
         </div>
 
-        <Button>Get started</Button>
+        <Button className='getStarted'>Get started</Button>
 
         <div style={{display: 'none'}}><IntroductionForWho /></div>  
       </main>

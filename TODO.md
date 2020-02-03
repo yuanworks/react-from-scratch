@@ -6,7 +6,7 @@
 - [ ] Create color mixins for dark/light theme
 - [x] Upgrade react-scripts
 - [x] Install all latest packages
-- [ ] Add CI for deployment
+- [x] Add CI deployment
 
 ### Medium Priority
 - [ ] Add Toggle for dark/light theme
@@ -18,3 +18,5 @@
 - [ ] Mobile version of Landing page
 - [ ] Test animations between routes
 - [ ] Animate Landing Page
+- [ ] Edit Readme
+- [ ] Add license
