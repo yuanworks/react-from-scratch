@@ -4,7 +4,6 @@ import styles from './Button.module.scss';
 
 function Button({ children, className }) {
 
-  console.log(styles);
   return (
     <button className={classnames(styles.button, className)}>{ children }</button>
   );
